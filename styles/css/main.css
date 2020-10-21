@@ -1,0 +1,133 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #E5E5E5;
+}
+
+
+
+.navbar {
+  background:#DB2C23;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #FDF5E6; 
+  cursor: pointer;
+
+}
+
+
+
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.feature-title {
+  color: #5d1f1f;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+
+
+
+.page-footer {
+  background-color: #442d2d;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+.DD01 {
+
+	background-color: #442d2d;
+  	 color: #ccc;
+  	padding: 60px 0 30px;
+}
+.DD02 {
+	background-color: #e5e5e5;
+  	color: black;
+  	padding: 60px 0 30px;
+}
+
+
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+}
+
+
+
+
+.fade-in {
+animation: fadeIn ease 20s;
+-webkit-animation: fadeIn ease 20s;
+-moz-animation: fadeIn ease 20s;
+-o-animation: fadeIn ease 20s;
+-ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
