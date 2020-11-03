@@ -55,8 +55,8 @@ text-align: center;
 <div class="form"> 
 <br><br><br><br><br><br><br>
     <h3>Tvorba novinek</h3>
-    Název:&nbsp;&nbsp;</td><td><input maxlength="50" class="titulek" type="text" name="titulek" value="<?= htmlspecialchars($clanek['titulek']) ?>" /> <br><br>
-    Obsah:&nbsp;&nbsp;</td><td><textarea maxlength="350" style="resize: none;" class="obsah" name="obsah"><?= htmlspecialchars($clanek['obsah']) ?></textarea> <br><br>
+    Název:&nbsp;&nbsp;</td><td><input maxlength="50" class="titulek" type="text" name="titulek" value="<?= htmlspecialchars($novinky['titulek']) ?>" /> <br><br>
+    Obsah:&nbsp;&nbsp;</td><td><textarea maxlength="350" style="resize: none;" class="obsah" name="obsah"><?= htmlspecialchars($novinky['obsah']) ?></textarea> <br><br>
     <button type="submit" class="btn btn-light" value="Uložit" /> Uložit </button>
  </div></form>
  </BODY>
